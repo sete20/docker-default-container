@@ -1,0 +1,8 @@
+علشان اعمل ميجريشن واغير اسم الهوست داتا بيز ل الايمج في في الدوكر فايل
+docker compose exec php /var/www/html/artisan migrate
+
+علشان استخدم اي ايمج من الكومبوزر وارنها جوا اي دايركتوري 
+docker compose run ==> image name composer require aschmelyun/larametrics
+docker compose run artisan make:model Test -m
+
+docker compose build && docker compose up 
