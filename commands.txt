@@ -6,3 +6,13 @@ docker compose run ==> image name composer require aschmelyun/larametrics
 docker compose run artisan make:model Test -m
 
 docker compose build && docker compose up 
+
+build & start
+
+ docker-compose up -d --build
+remove
+
+ docker-compose down
+remove everything (volumes, images, etc.)
+
+ docker-compose down --rmi all -v --remove-orphans
